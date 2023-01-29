@@ -1,3 +1,4 @@
+            //Upper Camel Case
 public class NamingJava {
     public static void main(String[] args) {
         // Special case for integer number to long.
@@ -20,6 +21,11 @@ public class NamingJava {
         int POSITION = -5;
         int MAX_WIDTH = 9999;
         int MIN_WIDTH = 1;
+
+        //Lower Camel Case
+        String fullName = "Ivan Dario Hernandez Rodriguez";
+        int sizeIntCentimeters = 26;
+
 
 
 
