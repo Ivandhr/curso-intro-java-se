@@ -10,6 +10,18 @@ public class DataTypes {
         double nD = 123.456;
         float nF = 123.456F;
 
+        //Tipo var infiere el tipo de dato
+        var salary = 1000; //Int
+        //pension 3%
+        var pension = salary*0.03; //Double
+        var totalSalary = salary - pension; //Double
+        System.out.println(salary);
+        System.out.println(pension);
+        System.out.println(totalSalary);
+
+        var employeeName = "Ivan Hernandez";
+        System.out.println("EMPLOYEE: " + employeeName + " SALARY: "+ totalSalary);
+
 
     }
 }
